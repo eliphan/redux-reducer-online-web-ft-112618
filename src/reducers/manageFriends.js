@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export function manageFriends(state = { friends: [] }, action) {
   switch(action.type) {
     case "ADD_FRIEND":
@@ -16,5 +17,11 @@ export function manageFriends(state = { friends: [] }, action) {
       )
     default:
       return state
+=======
+export function manageFriends(state, action){
+  action = {
+    type: "ADD_FRIEND";
+    friend: "Chrome Boi"
+>>>>>>> 0e6d78de36d17b164c6f1ff35df8b2f73bc93c07
   }
 }
